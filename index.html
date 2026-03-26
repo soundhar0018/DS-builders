@@ -27,7 +27,15 @@
 <button>Call Now</button>
 <button>Get Free Quote</button>
 </div>
+<form name="contact" method="POST" data-netlify="true">
+  <input type="hidden" name="form-name" value="contact">
 
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <textarea name="message" placeholder="Your Message" required></textarea>
+
+  <button type="submit">Send</button>
+</form>
 <footer>
 <p>© 2026 DS Builders & Developer</p>
 </footer>
